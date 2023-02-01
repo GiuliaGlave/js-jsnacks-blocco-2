@@ -24,10 +24,10 @@ for (let i = 0; i < numberArray.length; i++) {
 
     if (splitNumber % 2 == 0){
     
-        greenId.append(" ." + splitNumber  );
+        greenId.append("  ." + splitNumber  );
         
     } else{
-        redId.append(" ." + splitNumber);
+        redId.append("  ." + splitNumber);
     }
 }
 

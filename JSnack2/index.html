@@ -15,30 +15,34 @@
 		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
 
     <!-- STYLE CSS -->
-  <!--   <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="./style.css">
 
     <!-- SCRIPT JS -->
     <script type="text/javascript" src="./script.js" defer></script>
 </head>
 
 <body>
+     <div class="container row d-flex flex-column justify-content-center">
 
-    <div>
-      <h1>NUMERI DISPARI</h1>
-      <div id="red" class="text-danger">
+      <div class="col col-auto d-flex flex-column align-items-center">
+        <h1>NUMERI DISPARI</h1>
+        <div id="red" class="box text-danger mt-4 ">
       
+        </div>
       </div>
-    </div>
- 
-    <div>
-      <button type="button" id="refresh-btn"></button>
-    </div>
-    <div>
-      <h1>NUMERI PARI</h1>
-      <div id="green" class="text-success">
       
+      <div class="col col-auto">
+        <button type="button" class="btn btn-primary fs-3" id="refresh-btn" value="Reload Page" onClick="window.location.reload(true)">Ricarica</button>
       </div>
-    </div>
+      
+      <div class="col col-auto d-flex flex-column align-items-center ">
+        <h1>NUMERI PARI</h1>
+        <div id="green" class="box text-success mt-4">
+      
+        </div>
+      </div>
+     </div>
+    
   
 
 </body>
